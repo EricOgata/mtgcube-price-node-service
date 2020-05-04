@@ -1,0 +1,32 @@
+{
+  "name": "mtgcube-price-node-service",
+  "version": "1.0.0",
+  "description": "Uma ferramenta para buscar os preços de um cubo de MTG no side LigaMagic",
+  "main": "app.js",
+  "repository": "git@github.com:EricOgata/mtgcube-price-node-service.git",
+  "author": "Eric Ogata <dev.ericogata@gmail.com>",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js ./ --cache=true"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.25.1",
+    "p-limit": "^2.3.0",
+    "papaparse": "^5.2.0",
+    "puppeteer": "^3.0.2",
+    "typescript": "^3.8.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
